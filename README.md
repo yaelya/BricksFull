@@ -2,4 +2,4 @@ The player should blow bricks by pressing the entire length of the brick, with t
 
 
 
-![project logo (this one for is taken from basecamp - a project management service)](https://github.com/MichaLasry/ImageTalke/blob/master/images/logo.JPG)
+![project logo (this one for is taken from basecamp - a project management service)](https://github.com/yaelya/BricksFull/blob/master/game.png)
