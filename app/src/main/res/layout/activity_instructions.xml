@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Instructions">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="INSTRUCTIONS"
+        android:textColor="@android:color/background_light"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Select a tune for the game\n\nLevel 1: All the time you play the melody, you have to blow up all the falling bricks - if a brick reaches the floor without being blown it is disqualified.\n\n
+Level 2: All the time the melody plays, white falls, your goal is to smuggle the man from the bricks to keep him alive.\n\nafter 3 disqualifications (lives) the game is over.\n\nIf the melody is over and you still have a life - you win
+\n\nEnjoy!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="menu"
+        android:text="menu"
+        android:textSize="24sp" />
+</LinearLayout>

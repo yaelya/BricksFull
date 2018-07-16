@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BrinksFall</string>
+    <string name="title_activity_level_one">LevelOne</string>
+    <string name="title_activity_instructions">INSTRUCTIONS</string>
+    <string name="font_family_light">sans-serif-light</string>>
+</resources>
